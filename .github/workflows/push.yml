@@ -13,9 +13,9 @@ jobs:
     steps:
       - name: Show commit information
         run: |
-          echo "Push event detected!"
+          echo "Push event detected!!!"
           echo "Repository: $GITHUB_REPOSITORY"
           echo "Branch: $GITHUB_REF"
           echo "Commit SHA: $GITHUB_SHA"
           echo "Triggered by: $GITHUB_ACTOR"
-          echo "Commit message: $GITHUB_EVENT_HEAD_COMMIT_MESSAGE"
+          echo "Commit message: $GITHUB_EVENT_HEAD_COMMIT_MESSAGE" 
